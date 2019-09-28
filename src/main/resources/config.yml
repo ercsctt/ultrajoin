@@ -15,18 +15,17 @@
 
 # What should the 'first join' message be?
 # Placeholders you can use:
-#  - Any from PlaceholderAPI
+#  - Any from PlaceholderAPI (if installed...)
 #  - {player} for the player's name
 #  - {displayname} if you want to use the player's displayname (uses their essentials nickname, etc)
-#  - {unique} to get the server's all time player count (including this one!)
 first-join:
   enabled: true
-  message: '&aWelcome, {player} to UltraCraft! You are player #{unique}!'
+  message: '&aWelcome, {player} to UltraCraft!'
 
 # What should the player join message be?
 # Set 'message' to '' if you want to fully disable the join message!
 # Placeholders you can use:
-#  - Any from PlaceholderAPI
+#  - Any from PlaceholderAPI (if installed...)
 #  - {player} for the player's name
 #  - {displayname} if you want to use the player's displayname (uses their essentials nickname, etc)
 join:
@@ -36,7 +35,7 @@ join:
 # What should the player leave message be?
 # Set 'message' to '' if you want to fully disable the leave message!
 # Placeholders you can use:
-#  - Any from PlaceholderAPI
+#  - Any from PlaceholderAPI (if installed...)
 #  - {player} for the player's name
 #  - {displayname} if you want to use the player's displayname (uses their essentials nickname, etc)
 leave:

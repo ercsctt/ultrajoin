@@ -2,3 +2,4 @@ name: UltraJoin
 description: UltraJoin, customise your player Join and Leave messages!
 main: uk.co.ericscott.ultrajoin.UltraJoin
 version: 1.0.0
+softdepend: [PlaceholderAPI]
