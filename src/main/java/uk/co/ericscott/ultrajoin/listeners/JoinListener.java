@@ -6,18 +6,14 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerJoinEvent;
 import uk.co.ericscott.ultrajoin.UltraJoin;
-import uk.co.ericscott.ultralibs.config.Configuration;
 
 public class JoinListener implements Listener
 {
 
     private UltraJoin instance;
 
-    private Configuration config;
-
     public JoinListener(UltraJoin instance){
         this.instance = instance;
-        this.config = instance.getConfiguration();
     }
 
     @EventHandler
