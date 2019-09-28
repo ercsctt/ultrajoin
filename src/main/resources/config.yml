@@ -1,0 +1,44 @@
+#############################################################
+#   _   _  _  _                    _         _
+#  | | | || || |_  _ __  __ _     | |  ___  (_) _ __
+#  | | | || || __|| '__|/ _` | _  | | / _ \ | || '_ \
+#  | |_| || || |_ | |  | (_| || |_| || (_) || || | | |
+#   \___/ |_| \__||_|   \__,_| \___/  \___/ |_||_| |_|
+#
+#   @author ericscott.co.uk
+#
+#   UltraJoin supports PlaceholderAPI!
+#   You can use all placeholders in your messages!
+#   List of placeholders: https://github.com/PlaceholderAPI/PlaceholderAPI/wiki/Placeholders
+#
+#############################################################
+
+# What should the 'first join' message be?
+# Placeholders you can use:
+#  - Any from PlaceholderAPI
+#  - {player} for the player's name
+#  - {displayname} if you want to use the player's displayname (uses their essentials nickname, etc)
+#  - {unique} to get the server's all time player count (including this one!)
+first-join:
+  enabled: true
+  message: '&aWelcome, {player} to UltraCraft! You are player #{unique}!'
+
+# What should the player join message be?
+# Set 'message' to '' if you want to fully disable the join message!
+# Placeholders you can use:
+#  - Any from PlaceholderAPI
+#  - {player} for the player's name
+#  - {displayname} if you want to use the player's displayname (uses their essentials nickname, etc)
+join:
+  enabled: true
+  message: '&e{player} has joined the server!'
+
+# What should the player leave message be?
+# Set 'message' to '' if you want to fully disable the leave message!
+# Placeholders you can use:
+#  - Any from PlaceholderAPI
+#  - {player} for the player's name
+#  - {displayname} if you want to use the player's displayname (uses their essentials nickname, etc)
+leave:
+  enabled: true
+  message: '&e{player} has left UltraCraft! Bye!'
