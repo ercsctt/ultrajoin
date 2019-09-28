@@ -29,7 +29,7 @@ first-join:
 #  - {player} for the player's name
 #  - {displayname} if you want to use the player's displayname (uses their essentials nickname, etc)
 join:
-  enabled: true
+  enabled: false
   message: '&e{player} has joined the server!'
 
 # What should the player leave message be?
@@ -39,5 +39,5 @@ join:
 #  - {player} for the player's name
 #  - {displayname} if you want to use the player's displayname (uses their essentials nickname, etc)
 leave:
-  enabled: true
+  enabled: false
   message: '&e{player} has left UltraCraft! Bye!'

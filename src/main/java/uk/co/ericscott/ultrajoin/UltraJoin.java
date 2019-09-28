@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import sun.security.krb5.Config;
 import uk.co.ericscott.ultrajoin.commands.UltraJoinCommand;
 import uk.co.ericscott.ultrajoin.listeners.JoinListener;
+import uk.co.ericscott.ultrajoin.listeners.LeaveListener;
 import uk.co.ericscott.ultralibs.commands.CommandFramework;
 import uk.co.ericscott.ultralibs.config.Configuration;
 
@@ -36,7 +37,8 @@ public class UltraJoin extends JavaPlugin
      * List of listeners to be loaded
      */
     private Listener[] listeners = {
-        new JoinListener(this)
+        new JoinListener(this),
+        new LeaveListener(this)
     };
 
     /**

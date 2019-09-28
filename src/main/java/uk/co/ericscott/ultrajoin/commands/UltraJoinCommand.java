@@ -76,7 +76,8 @@ public class UltraJoinCommand
             aliases = { "uj.reload" },
             description = "Reload UltraJoin configuration file",
             usage = "/ultrajoin reload",
-            permission = "ultrajoin.reload"
+            permission = "ultrajoin.reload",
+            noPerm = "&cInsufficient permissions."
     )
     public void ultraJoinReload(CommandArgs commandArgs)
     {
