@@ -47,6 +47,11 @@ public class LeaveListener implements Listener
                     .replace("{player}", player.getName())
                     .replace("{displayname}", player.getDisplayName());
 
+            if(leaveMessage.isEmpty())
+            {
+                leaveMessage = null;
+            }
+
             event.setQuitMessage(leaveMessage);
         }
     }

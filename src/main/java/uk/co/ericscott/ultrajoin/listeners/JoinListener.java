@@ -63,6 +63,11 @@ public class JoinListener implements Listener
                     .replace("{player}", player.getName())
                     .replace("{displayname}", player.getDisplayName());
 
+            if(joinMessage.isEmpty())
+            {
+                joinMessage = null;
+            }
+
             event.setJoinMessage(joinMessage);
         }
     }
@@ -88,6 +93,11 @@ public class JoinListener implements Listener
         joinMessage = joinMessage
                 .replace("{player}", player.getName())
                 .replace("{displayname}", player.getDisplayName());
+
+        if(joinMessage.isEmpty())
+        {
+            joinMessage = null;
+        }
 
         event.setJoinMessage(joinMessage);
     }

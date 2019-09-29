@@ -1,4 +1,4 @@
-![UltraJoin Logo](https://images.ericscott.co.uk/ultrajoin/logo.png)
+![UltraJoin Logo](https://ericscott.co.uk/img/ultra/ULTRAJOIN.png)
 # Welcome to UltraJoin
 
 UltraJoin allows you to modify player first join, join and leave messages for your Spigot server.
